@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "336372932279",
+    "project_id": "todo-c11-friday",
+    "storage_bucket": "todo-c11-friday.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336372932279:android:04d854abc07e8098727732",
+        "android_client_info": {
+          "package_name": "com.example.todo_c11_friday"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUhXJ9PA61z68-JSblVNwrM_GadRKSM94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
