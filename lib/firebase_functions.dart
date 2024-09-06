@@ -71,21 +71,7 @@ class FirebaseFunctions {
     return docRef.data();
   }
 
-  static loginUser(String email, String password,
-      {required Function onSuccess, required Function onError}) async {
-    try {
-      final credential = await FirebaseAuth.instance.signInWithEmailAndPassword(
-        email: email,
-        password: password,
-      );
 
-      onSuccess(credential.user?.displayName ?? "");
-    } on FirebaseAuthException catch (e) {
-      onError(e.message);
-    } catch (e) {
-      onError(e.toString());
-    }
-  }
 
   static createAccountAuth(String emailAddress, String password,
       {required Function onSuccess,
